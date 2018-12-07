@@ -7,7 +7,7 @@ var canvas = document.querySelector('.snow'),
 
 function Flake(x, y) {
   var maxWeight = 5,
-      maxSpeed = 3;
+      maxSpeed = 100000;
 
   this.x = x;
   this.y = y;
